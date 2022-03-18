@@ -6,7 +6,7 @@ import java.util.Scanner;
 
 // 약수 구하기 
 // 백준 : https://www.acmicpc.net/problem/2501
-public class Quiz01 {
+public class baekjoon2501 {
 
 	static List<Integer> measure = new ArrayList<>();
 	
@@ -19,7 +19,6 @@ public class Quiz01 {
 		
 		for(int i = 1 ; i <= number; i++) {
 			if(number % i == 0) {
-//				System.out.println(i);
 				measure.add(i);
 			}
 		}
