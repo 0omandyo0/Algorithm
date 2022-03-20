@@ -6,7 +6,7 @@ import java.util.Scanner;
 
 // 약수 구하기 
 // 백준 : https://www.acmicpc.net/problem/2501
-public class baekjoon2501 {
+public class Baekjoon2501 {
 
 	static List<Integer> measure = new ArrayList<>();
 	

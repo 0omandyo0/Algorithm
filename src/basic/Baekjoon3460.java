@@ -4,11 +4,12 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
 
-public class baekjoon3460 {
+public class Baekjoon3460 {
 
 	static List<Integer> inputData = new ArrayList<>();
 
 	public static void main(String[] args) {
+		
 		Scanner sc = new Scanner(System.in);
 
 		int n = sc.nextInt();
@@ -27,7 +28,7 @@ public class baekjoon3460 {
 			String str = "";
 
 			int number = inputData.get(i);
-//			String output = "";
+
 			while (number > 0) {
 				result.add(number % 2);
 				number = number / 2;
